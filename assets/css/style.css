@@ -55,6 +55,7 @@ h2{
 
 .content{
     width: 960px;
+    height: 700px;
     margin: auto;
     margin-top: 35px;
     background: #ffffff;
@@ -68,17 +69,43 @@ h2{
 }
 
 h3{
-    
+    font-size: 22px;
     color: teal;
     border-bottom: 2px solid #777777;
     text-align: left;    
 
 }
 
-h3, p{
-    margin: 10px;
-    padding: 10px;
+h3, p, form{
+    margin: 20px;
 
+}  
+
+label, input{
+    display: block;
+    margin-top: 5px;
+}
+
+label{
+    margin-top: 10px;
+}
+
+#name, #email, #message{
+    width: 100%;
+    height: 50%;
+}
+
+
+#message{
+    height: 150px;
+}
+
+#submitButton{
+    text-decoration: none;
+    background: #4aaaa5;
+    color: #eeeeee;
+    border-color: #4aaaa5;
+    
 }
 
 footer{
